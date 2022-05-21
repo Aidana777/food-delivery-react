@@ -1,7 +1,7 @@
 .App {
   width: 100vw;
   height: 100vh;
-  background: #faf9fb;
+  background: #faf9fb00;
   overflow-x: hidden;
 }
 
@@ -21,7 +21,7 @@ header {
   top: 0;
   left: 0;
   z-index: 101;
-  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.912);
 }
 
 .logo {
@@ -30,14 +30,14 @@ header {
 }
 
 .inputBox {
-  background: #ffffff;
+  background:black;
   border-radius: 25px;
   display: flex;
   align-items: center;
   overflow: hidden;
   padding: 8px 15px;
   width: 120px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0);
 }
 
 .inputBox .searchIcon {
@@ -74,7 +74,7 @@ header {
 .shoppingCart .cart_content {
   width: 20px;
   height: 20px;
-  background: #f8901c;
+  background: #f8e21c;
   border-radius: 100%;
   min-width: 20px;
   min-height: 20px;
@@ -88,7 +88,7 @@ header {
 
 .shoppingCart .cart_content p {
   font-weight: 500;
-  color: #faf9fb;
+  color: #f9f9fb;
 }
 
 .shoppingCart .noCartItem {
@@ -105,7 +105,7 @@ header {
   min-width: 40px;
   height: 40px;
   border-radius: 100%;
-  background: #444;
+  background: rgba(68, 68, 68, 0);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -136,7 +136,7 @@ header {
 
 main {
   width: 100%;
-  /* height: calc(100% - 60px); */
+  
   height: auto;
   position: relative;
   margin-top: 60px;
@@ -151,7 +151,7 @@ main {
   align-items: center;
   width: 100%;
   height: 60px;
-  background: #d5d5d5;
+  background: #d5d5d500;
   border-radius: 25px 25px 0px 0px;
   z-index: 101;
 }
@@ -197,7 +197,7 @@ main {
 }
 
 .leftMenu ul li.active a .icon .MuiSvgIcon-root {
-  color: #faf9fb;
+  color: #faf9fb29;
   transition: 0.5s;
 }
 
@@ -205,7 +205,7 @@ main {
   position: absolute;
   height: 60px;
   width: 60px;
-  background: #f8901c;
+  background: #f8911c9f;
   top: -50%;
   border-radius: 50%;
   border: 6px solid #faf9fb;
@@ -273,7 +273,7 @@ main {
   width: 100%;
   height: 130px;
   border-radius: 10px;
-  background: url("https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fbanner.png?alt=media&token=7e244d84-8821-477d-b273-4c9381a474fb")
+  background: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.eatthis.com%2Foldest-fast-food-chains-america%2F&psig=AOvVaw1KzIoycoCVXtioVbIZE_b7&ust=1653146571864000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJCWuYOx7vcCFQAAAAAdAAAAABAP")
     no-repeat center;
   background-size: cover;
   position: relative;
@@ -326,7 +326,7 @@ main {
 }
 
 .bannerContent a:hover {
-  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.952);
   transition: 0.5s;
 }
 
@@ -425,7 +425,7 @@ main {
 
 .rowMenuCard:hover .imgBox,
 .rowMenuCard.active .imgBox {
-  background: #faf9fb;
+  background: #f9f9fb05;
 }
 
 .rowMenuCard .imgBox img {
@@ -598,7 +598,7 @@ main {
 .rightMenu {
   width: 350px;
   height: calc(100% - 55px);
-  background: #fff;
+  background: rgba(255, 255, 255, 0.167);
   position: fixed;
   right: 0;
   top: 55px;
