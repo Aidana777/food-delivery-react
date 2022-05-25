@@ -3,12 +3,12 @@ import {
   SearchRounded,
   ShoppingCartRounded,
 } from "@mui/icons-material";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useStateValue } from "./StateProvider";
 
 function Header() {
   const [{ cart }, dispatch] = useStateValue();
-
+  const [searchTag,setSearchTag]=useState("")
   useEffect(() => {
     const toggleIcon = document.querySelector(".toggleMenu");
     toggleIcon.addEventListener("click", () => {
@@ -26,7 +26,9 @@ function Header() {
 
       <div className="inputBox">
         <SearchRounded className="searchIcon" />
-        <input type="text" placeholder="Search" />
+        <input type="text" 
+        placeholder="Search"
+        onChange={(e)=>setSearchTag(e.target)} />
       </div>
 
       <div className="shoppingCart">
