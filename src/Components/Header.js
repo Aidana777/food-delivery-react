@@ -1,14 +1,15 @@
 import {
   BarChart,
-  SearchRounded,
-  ShoppingCartRounded,
+  
+  ShoppingCartRounded
 } from "@mui/icons-material";
 import React, { useEffect, useState } from "react";
 import { useStateValue } from "./StateProvider";
+import {Search} from "./Search"
 
 function Header() {
   const [{ cart }, dispatch] = useStateValue();
-  const [searchTag,setSearchTag]=useState("")
+
   useEffect(() => {
     const toggleIcon = document.querySelector(".toggleMenu");
     toggleIcon.addEventListener("click", () => {
@@ -24,13 +25,7 @@ function Header() {
         className="logo"
       />
 
-      <div className="inputBox">
-        <SearchRounded className="searchIcon" />
-        <input type="text" 
-        placeholder="Search"
-        onChange={(e)=>setSearchTag(e.target)} />
-      </div>
-
+     <Search/>
       <div className="shoppingCart">
         <ShoppingCartRounded className="cart" />
         <div className={`${!cart ? "noCartItem" : "cart_content"}`}>
@@ -45,7 +40,7 @@ function Header() {
             alt=""
           />
         </div>
-        <h2 className="userName">Vetrivel Ravi</h2>
+        <h2 className="userName">Niiazaliva Aidana</h2>
       </div>
 
       <div className="toggleMenu">

@@ -43,6 +43,7 @@ function ItemCard({ itemId, imgSrc, name, price, ratings }) {
         <h3 className="itemName">{name}</h3>
         <div className="bottom">
           <div className="ratings">
+           
             {Array.apply(null, { length: 5 }).map((e, i) => (
               <i
                 key={i}
@@ -60,7 +61,8 @@ function ItemCard({ itemId, imgSrc, name, price, ratings }) {
           <i
             className="addToCart"
             onClick={() => {
-              setCart(Items.find((n) => n.id === itemId));
+             // setCart(Items.find((n) => n.id == itemId));
+            
             }}
           >
             <AddRounded />
