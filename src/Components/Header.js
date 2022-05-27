@@ -1,11 +1,10 @@
 import {
   BarChart,
-  
-  ShoppingCartRounded
+  SearchRounded,
+  ShoppingCartRounded,
 } from "@mui/icons-material";
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { useStateValue } from "./StateProvider";
-import {Search} from "./Search"
 
 function Header() {
   const [{ cart }, dispatch] = useStateValue();
@@ -25,7 +24,11 @@ function Header() {
         className="logo"
       />
 
-     <Search/>
+      <div className="inputBox">
+        <SearchRounded className="searchIcon" />
+        <input type="text" placeholder="Search" />
+      </div>
+
       <div className="shoppingCart">
         <ShoppingCartRounded className="cart" />
         <div className={`${!cart ? "noCartItem" : "cart_content"}`}>
@@ -40,7 +43,7 @@ function Header() {
             alt=""
           />
         </div>
-        <h2 className="userName">Niiazaliva Aidana</h2>
+        <h2 className="userName">Vetrivel Ravi</h2>
       </div>
 
       <div className="toggleMenu">

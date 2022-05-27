@@ -1,4 +1,4 @@
-import { AddRounded, Favorite, StarRounded } from "@mui/icons-material";
+import { AddRounded, CopyAll, Favorite, StarRounded } from "@mui/icons-material";
 import React, { useState } from "react";
 import { actionType } from "./reducer";
 import { useStateValue } from "./StateProvider";
@@ -61,7 +61,7 @@ function ItemCard({ itemId, imgSrc, name, price, ratings }) {
           <i
             className="addToCart"
             onClick={() => {
-             // setCart(Items.find((n) => n.id == itemId));
+              setCart(Items.find((n) => n.id === itemId))
             
             }}
           >
