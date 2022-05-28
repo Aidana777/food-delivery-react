@@ -3,11 +3,15 @@ import {
   SearchRounded,
   ShoppingCartRounded,
 } from "@mui/icons-material";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useStateValue } from "./StateProvider";
 
 function Header() {
   const [{ cart }, dispatch] = useStateValue();
+  const [search,setSearch]=useState('');
+  const filleter= cart.fillter(cart=>{
+    return cart.name.toLowerCase().includes(value.toLowerCase())
+  })
 
   useEffect(() => {
     const toggleIcon = document.querySelector(".toggleMenu");
@@ -26,7 +30,9 @@ function Header() {
 
       <div className="inputBox">
         <SearchRounded className="searchIcon" />
-        <input type="text" placeholder="Search" />
+        <input type="text" placeholder="Search"
+        onChange={(e)=>setSearch(e.target.value)}
+         />
       </div>
 
       <div className="shoppingCart">
@@ -43,7 +49,7 @@ function Header() {
             alt=""
           />
         </div>
-        <h2 className="userName">Vetrivel Ravi</h2>
+        <h2 className="userName"> Aidana</h2>
       </div>
 
       <div className="toggleMenu">
