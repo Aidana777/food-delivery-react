@@ -1,5 +1,5 @@
 export const initialState = {
-  cart: null,
+  cart: {},
   total: null,
 };
 
