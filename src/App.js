@@ -38,7 +38,7 @@ function App() {
 
     menuLi.forEach((n) => n.addEventListener("click", setMenuActive));
 
-    // menu Card active class changer
+
     const menuCard = document
       .querySelector(".rowContainer")
       .querySelectorAll(".rowMenuCard");
@@ -140,6 +140,7 @@ function App() {
                 <SubMenuContainer />
 
                 <div className="cartItems">
+                 [
                   {cart &&
                     cart.map((data) => (
                       <CartItem
@@ -151,6 +152,7 @@ function App() {
                         price={data.price}
                       />
                     ))}
+                 ]
                 </div>
               </div>
               <div className="totalSection">
