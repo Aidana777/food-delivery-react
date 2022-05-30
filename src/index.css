@@ -31,21 +31,19 @@ img {
   max-width: 100%;
 }
 .inputBox {
-  background:black;
+  background: #ffffff;
   border-radius: 25px;
   display: flex;
   align-items: center;
   overflow: hidden;
   padding: 8px 15px;
   width: 120px;
-  box-shadow: 0px 0px 20px rgb(0, 0, 0);
-  z-index: 1;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
 }
 
-.inputBox .searchIcon {
-  color: #787a8490;
+.inputBox  {
+  color: #787a84;
   font-size: 20px;
-  
 }
 
 .inputBox input {
@@ -59,3 +57,5 @@ img {
   font-size: 14px;
   font-weight: 500;
 }
+
+ 

@@ -20,13 +20,13 @@ import SubMenuContainer from "./Components/SubMenuContainer";
 import CartItem from "./Components/CartItem";
 import { useStateValue } from "./Components/StateProvider";
 
-function App() {
+ function App() {
   const [isMainData, setMainData] = useState(
     Items.filter((element) => element.itemId === "buger01")
   );
-
-  const [{ cart, total }, ] = useStateValue();
-  const [totalPrice, ] = useState(0);
+  const [search, setSearch] = useState('');
+  const [{ cart, total },] = useStateValue();
+  const [totalPrice,] = useState(0);
 
   useEffect(() => {
     const menuLi = document.querySelectorAll("#menu li");
@@ -57,24 +57,28 @@ function App() {
 
   return (
     <div className="App">
+
+     
       {/* Header section */}
-      <Header />
+   
+      <Header setSearch={setSearch} />
+
 
       {/* Left menu */}
       <div className="leftMenu">
         <ul id="menu">
           {/* prettier-ignore */}
-          <MenuContainer link = {'#'} icon = {<HomeRounded />}  isHome/>
+          <MenuContainer link={'#'} icon={<HomeRounded />} isHome />
           {/* prettier-ignore */}
-          <MenuContainer link = {'#'} icon = {<Chat />}  />
+          <MenuContainer link={'#'} icon={<Chat />} />
           {/* prettier-ignore */}
-          <MenuContainer link = {'#'} icon = {<AccountBalanceWalletRounded />}  />
+          <MenuContainer link={'#'} icon={<AccountBalanceWalletRounded />} />
           {/* prettier-ignore */}
-          <MenuContainer link = {'#'} icon = {<Favorite />} />
+          <MenuContainer link={'#'} icon={<Favorite />} />
           {/* prettier-ignore */}
-          <MenuContainer link = {'#'} icon = {<SummarizeRounded />}  />
+          <MenuContainer link={'#'} icon={<SummarizeRounded />} />
           {/* prettier-ignore */}
-          <MenuContainer link = {'#'} icon = {<Settings />}  />
+          <MenuContainer link={'#'} icon={<Settings />} />
           <div className="indicator"></div>
         </ul>
       </div>
@@ -132,7 +136,7 @@ function App() {
 
           {!cart ? (
             <div className="addSomeItem">
-           mpty
+              mpty
             </div>
           ) : (
             <div className="cartCheckOutContianer">
@@ -140,7 +144,7 @@ function App() {
                 <SubMenuContainer />
 
                 <div className="cartItems">
-                 
+
                   {cart &&
                     cart.map((data) => (
                       <CartItem
@@ -152,7 +156,7 @@ function App() {
                         price={data.price}
                       />
                     ))}
-                 
+
                 </div>
               </div>
               <div className="totalSection">

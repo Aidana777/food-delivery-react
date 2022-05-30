@@ -1,12 +1,11 @@
 import {
   BarChart,
-  SearchRounded,
   ShoppingCartRounded,
 } from "@mui/icons-material";
 import React, { useEffect } from "react";
 import { useStateValue } from "./StateProvider";
 
-function Header() {
+function Header({setSearch}) {
   const [{ cart }] = useStateValue();
 
   useEffect(() => {
@@ -19,10 +18,10 @@ function Header() {
   return (
     <header>
         <div className="inputBox">
-        <SearchRounded className="searchIcon" />
-        <input type="text" placeholder="Search" />
+        <input type="text" placeholder="Search" 
+        onChange={(event)=>setSearch((event.target.value))}
+       />
       </div>
-
 
       <div className="shoppingCart">
         <ShoppingCartRounded className="cart" />
