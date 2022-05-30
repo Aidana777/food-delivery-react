@@ -18,11 +18,11 @@ function Header() {
 
   return (
     <header>
-  
-      <div className="inputBox">
+        <div className="inputBox">
         <SearchRounded className="searchIcon" />
         <input type="text" placeholder="Search" />
       </div>
+
 
       <div className="shoppingCart">
         <ShoppingCartRounded className="cart" />
