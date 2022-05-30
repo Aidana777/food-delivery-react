@@ -61,7 +61,7 @@ function ItemCard({ itemId, imgSrc, name, price, ratings }) {
           <i
             className="addToCart"
             onClick={() => {
-             // setCart(Items.find((n) => n.id === itemId))
+              setCart(Items.find((n) => n.id === itemId))
             
             }}
           >
