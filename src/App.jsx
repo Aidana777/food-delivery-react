@@ -17,7 +17,10 @@ import MenuContainer from "./components/MenuContainer";
 import MenuCard from "./components/MenuCard";
 import SubMenuContainer from "./components/SubMenuContainer";
 import ItemCard from "./components/ItemCard";
-import "./styles.css";
+
+
+import "./index.css";
+
 
 export default function App() {
   const [data, setData] = useState(Items);
@@ -141,4 +144,8 @@ export default function App() {
       </AppContext.Provider>
     </div>
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 40db8763508141052865b83fc99d20dafe11239e

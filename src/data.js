@@ -693,4 +693,8 @@ export const MenuItems = [
       ratings: 4,
       price: "7.5",
     },
+<<<<<<< HEAD
   ];
+=======
+  ];
+>>>>>>> 40db8763508141052865b83fc99d20dafe11239e

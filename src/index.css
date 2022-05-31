@@ -31,13 +31,26 @@ img {
   max-width: 100%;
 }
 .inputBox {
+<<<<<<< HEAD
   background:black;
+=======
+<<<<<<< HEAD
+  background:black;
+=======
+  background: #ffffff;
+>>>>>>> 370182f12654c1bdac9eed4bc196951638e53d98
+>>>>>>> 40db8763508141052865b83fc99d20dafe11239e
   border-radius: 25px;
   display: flex;
   align-items: center;
   overflow: hidden;
   padding: 8px 15px;
   width: 120px;
+<<<<<<< HEAD
+  box-shadow: 0px 0px 20px rgb(0, 0, 0);
+  z-index: 1;
+=======
+<<<<<<< HEAD
   box-shadow: 0px 0px 20px rgb(0, 0, 0);
   z-index: 1;
 }
@@ -46,6 +59,19 @@ img {
   color: #787a8490;
   font-size: 20px;
   
+=======
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+>>>>>>> 40db8763508141052865b83fc99d20dafe11239e
+}
+
+.inputBox .searchIcon {
+  color: #787a8490;
+  font-size: 20px;
+<<<<<<< HEAD
+  
+=======
+>>>>>>> 370182f12654c1bdac9eed4bc196951638e53d98
+>>>>>>> 40db8763508141052865b83fc99d20dafe11239e
 }
 
 .inputBox input {
@@ -60,6 +86,10 @@ img {
   font-weight: 500;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 40db8763508141052865b83fc99d20dafe11239e
 
 .App {
   width: 100vw;
@@ -1005,3 +1035,9 @@ main {
     height: 200px;
   }
 }
+<<<<<<< HEAD
+=======
+=======
+ 
+>>>>>>> 370182f12654c1bdac9eed4bc196951638e53d98
+>>>>>>> 40db8763508141052865b83fc99d20dafe11239e
