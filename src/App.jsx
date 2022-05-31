@@ -17,8 +17,6 @@ import MenuContainer from "./components/MenuContainer";
 import MenuCard from "./components/MenuCard";
 import SubMenuContainer from "./components/SubMenuContainer";
 import ItemCard from "./components/ItemCard";
-
-
 import "./index.css";
 
 
