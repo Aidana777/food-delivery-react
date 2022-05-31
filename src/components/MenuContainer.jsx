@@ -8,9 +8,9 @@ function MenuContainer({ link, icon, isHome }) {
     );
   }
   
-<<<<<<< HEAD
-  export default MenuContainer;
+
+ 
   
-=======
+
   export default MenuContainer;
->>>>>>> 40db8763508141052865b83fc99d20dafe11239e
+

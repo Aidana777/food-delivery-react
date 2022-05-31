@@ -36,8 +36,6 @@ function CartItem({ item }) {
   );
 }
 
-<<<<<<< HEAD
 export default CartItem;
-=======
-export default CartItem;
->>>>>>> 40db8763508141052865b83fc99d20dafe11239e
+
+
