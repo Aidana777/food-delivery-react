@@ -1,5 +1,4 @@
 import { ChevronRightRounded } from "@mui/icons-material";
-import React from "react";
 
 function MenuCard({ imgSrc, name, isActive }) {
   return (
