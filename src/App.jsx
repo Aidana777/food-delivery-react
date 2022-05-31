@@ -144,8 +144,8 @@ export default function App() {
       </AppContext.Provider>
     </div>
   );
-<<<<<<< HEAD
+
 }
-=======
-}
->>>>>>> 40db8763508141052865b83fc99d20dafe11239e
+
+
+
