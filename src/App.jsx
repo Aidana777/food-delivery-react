@@ -19,7 +19,6 @@ import SubMenuContainer from "./components/SubMenuContainer";
 import ItemCard from "./components/ItemCard";
 import "./index.css";
 
-
 export default function App() {
   const [data, setData] = useState(Items);
   const [cart, setCart] = useState([]);
@@ -142,8 +141,8 @@ export default function App() {
       </AppContext.Provider>
     </div>
   );
-
 }
+
 
 
 
