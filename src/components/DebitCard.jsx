@@ -10,7 +10,7 @@ function DebitCard() {
       
   
         <div className="card_number">2325466566887</div>
-        <div className="card_name"> App</div>
+        <div className="card_name"> Сфйт</div>
         <div className="card_from">10/21</div>
         <div className="card_to">10/25</div>
         <div className="card_ring"></div>
