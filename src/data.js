@@ -4,14 +4,14 @@ export const MenuItems = [
     itemId: "buger01",
     name: "Burger",
     imgSrc:
-      "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fburger3.png?alt=media&token=0ebe8311-6378-411b-9b6e-d7a6d2a106a2",
+      "https://simplehomeedit.com/wp-content/uploads/2023/12/Portuguese-Chicken-Burger.webp",
   },
   {
     id: 2,
     itemId: "pizza01",
     name: "Pizza",
     imgSrc:
-      "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fpizzaslice.png?alt=media&token=c91c0c7e-ffa9-41be-ba84-c3b45c79d483",
+      "	https://media.dodostatic.net/image/r:292x292/11EE7D5FFFEF64678F36FEAF9DE80589.webp",
   },
   {
     id: 3,
@@ -25,21 +25,21 @@ export const MenuItems = [
     itemId: "taco01",
     name: "Taco",
     imgSrc:
-      "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Ftaco1.png?alt=media&token=b78c8e68-c1a6-4e43-8c43-6ef9f23aa59f",
+      "https://tacotimecanada.com/wp-content/uploads/2020/12/TT_TacoCrisp_RefritoBean.jpg",
   },
   {
     id: 5,
     itemId: "snack01",
     name: "Snack",
     imgSrc:
-      "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fsnack1.png?alt=media&token=d670617e-4bfc-4693-aa8c-211db9f9d706",
+      "https://globus-online.kg/upload/iblock/551/551c11071e05da394fed39653bc28456.png",
   },
   {
     id: 6,
     itemId: "drink01",
     name: "Drink",
     imgSrc:
-      "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fdrink1.png?alt=media&token=e9cc5e4e-2194-4766-9d5a-5e01657927b7",
+      "https://m.media-amazon.com/images/I/91iFMPtXsIL._SX679_PIbundle-22,TopRight,0,0_AA679SH20_.jpg",
   },
 ];
   
@@ -49,7 +49,7 @@ export const MenuItems = [
       id: 1,
       itemId: "buger01",
       imgSrc:
-        "	https://static.wixstatic.com/media/25f6e3_e52f8920…/25f6e3_e52f892028ab45fba440985e97162563~mv2.webp",
+        "https://media-cdn.tripadvisor.com/media/photo-s/14/cc/2d/b2/our-home-made-burgers.jpg",
       name: "Burger Bistro",
       ratings: 5,
       price: "7.5",
@@ -58,7 +58,7 @@ export const MenuItems = [
       id: 2,
       itemId: "buger01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fburger2.png?alt=media&token=b256ed7a-fe35-4051-9bf5-24f39b79f2b2",
+        "https://www.bitesa.pk/wp-content/uploads/2020/11/smokin.png",
       name: "Smokin' Burger",
       ratings: 5,
       price: "12",
@@ -67,7 +67,7 @@ export const MenuItems = [
       id: 3,
       itemId: "buger01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fburger3.png?alt=media&token=0ebe8311-6378-411b-9b6e-d7a6d2a106a2",
+        "https://euphoria.ro/wp-content/uploads/2023/02/TNY05113-min-1-2048x1365.jpg",
       name: "Euphoria Burger",
       ratings: 5,
       price: "12",
@@ -76,7 +76,7 @@ export const MenuItems = [
       id: 4,
       itemId: "buger01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fburger4.png?alt=media&token=f219c72c-22b5-484a-9135-34bbb84e7faa",
+        "https://ashlesha.designtrailthemes.com/wp-content/uploads/2017/05/img-8.jpg",
       name: "Sassy Burger",
       ratings: 5,
       price: "12",
@@ -85,7 +85,7 @@ export const MenuItems = [
       id: 5,
       itemId: "buger01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fburger5.png?alt=media&token=e8963c79-af46-4f33-a28d-059f98f464e3",
+        "https://img.freepik.com/premium-photo/jalapeno-jazz-burger-images_1032986-18470.jpg",
       name: "Jazz Burger",
       ratings: 5,
       price: "12",
@@ -94,7 +94,7 @@ export const MenuItems = [
       id: 6,
       itemId: "buger01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fburger6.png?alt=media&token=f2b8febd-f0f8-48d7-9e1a-72d26b7bb36b",
+        "https://holycowvegan.net/wp-content/uploads/2021/05/vegan-whole-wheat-burger-bun-8.jpg",
       name: "Healthy Buns",
       ratings: 5,
       price: "12",
@@ -103,7 +103,7 @@ export const MenuItems = [
       id: 7,
       itemId: "pizza01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fpizza1.png?alt=media&token=7ffbc681-5d86-4429-888b-9597f3e800e8",
+        "https://en-chatelaine.mblycdn.com/ench/resized/2023/07/w767/margherita-pizza-feature.jpg",
       name: "Margherita",
       ratings: 5,
       price: "12",
@@ -112,7 +112,7 @@ export const MenuItems = [
       id: 8,
       itemId: "pizza01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fpizza2.png?alt=media&token=e9b65d7f-bd12-4c33-b172-729f1dfcf461",
+        "https://cheesiano.com/storage/app/item_thumbnail_image/YwshREMnsfYJB3poGPf85bZWzeT9rEf4Jq3A5qNR.jpg",
       name: "Peppy Paneer",
       ratings: 5,
       price: "12",
@@ -121,7 +121,7 @@ export const MenuItems = [
       id: 9,
       itemId: "pizza01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fpizza3.png?alt=media&token=4dea85ad-c36d-405a-adcd-a9dfd0c63a6a",
+        "https://www.pizzabank.in/wp-content/uploads/2023/11/Double-Cheese-Margherita.jpeg",
       name: "Double Cheese",
       ratings: 5,
       price: "12",
@@ -130,7 +130,7 @@ export const MenuItems = [
       id: 10,
       itemId: "pizza01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fpizza4.png?alt=media&token=1e5259ff-3431-4c76-830e-80e9d7dcc01e",
+        "https://www.chefajaychopra.com/assets/img/recipe/1-1659609869Untitleddesign4png.png",
       name: "Farm House",
       ratings: 4,
       price: "12",
@@ -139,7 +139,7 @@ export const MenuItems = [
       id: 11,
       itemId: "pizza01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fpizza5.png?alt=media&token=42bafbe4-f993-4aeb-93ee-57ea04b7cf1b",
+        "	https://chilloutbegusarai.in/image/cache/catalog/other/veg%20extravaganza-800x800-550x550w.jpg",
       name: "Veg Extrava",
       ratings: 4,
       price: "12",
@@ -148,7 +148,7 @@ export const MenuItems = [
       id: 12,
       itemId: "pizza01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fpizza6.png?alt=media&token=72a1e335-68d0-4b1c-8bbd-f28c656ce3b5",
+        "https://media-cdn.tripadvisor.com/media/photo-s/0f/0d/d4/92/deluxe-veggie-pizza.jpg",
       name: "Deluxe Veggie",
       ratings: 4,
       price: "12",
@@ -211,7 +211,7 @@ export const MenuItems = [
       id: 19,
       itemId: "taco01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Ftaco1.png?alt=media&token=b78c8e68-c1a6-4e43-8c43-6ef9f23aa59f",
+        "https://www.tacobueno.com/assets/food/tacos/Taco_Crispy_Beef_990x725.jpg",
       name: "Taco",
       ratings: 3,
       price: "7.5",
@@ -220,7 +220,7 @@ export const MenuItems = [
       id: 20,
       itemId: "taco01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Ftaco2.png?alt=media&token=a6e8d72e-f288-48dc-9f26-8322774f5216",
+        "https://www.tacobueno.com/assets/food/tacos/Taco_Soft_Beef_990x725.jpg",
       name: "Taco",
       ratings: 3,
       price: "7.5",
@@ -229,7 +229,7 @@ export const MenuItems = [
       id: 21,
       itemId: "taco01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Ftaco3.png?alt=media&token=daa2cf5b-36b7-426a-9f2c-73ae70e62634",
+        "https://www.tacobueno.com/assets/food/tacos/Taco_Muchaco_Beef_990x725.jpg",
       name: "Taco",
       ratings: 3,
       price: "7.5",
@@ -238,7 +238,7 @@ export const MenuItems = [
       id: 22,
       itemId: "taco01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Ftaco4.png?alt=media&token=5d067124-870f-4ea8-afe1-5bd4f94ca20c",
+        "https://www.tacobueno.com/assets/food/tacos/Taco_BFT_Beef_990x725.jpg",
       name: "Taco",
       ratings: 3,
       price: "9",
@@ -247,7 +247,7 @@ export const MenuItems = [
       id: 23,
       itemId: "taco01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Ftaco5.png?alt=media&token=910f236f-2149-46cf-9b74-7d1ee0323c93",
+        "https://www.tacobueno.com/assets/food/tacos/Taco_Soft_Beef_990x725.jpg",
       name: "Taco",
       ratings: 3,
       price: "9",
@@ -256,7 +256,7 @@ export const MenuItems = [
       id: 24,
       itemId: "taco01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Ftaco6.png?alt=media&token=91214a30-cad0-434d-9339-3c658150ccab",
+        "https://www.tacobueno.com/assets/food/tacos/Taco_Soft_Beef_990x725.jpg",
       name: "Taco",
       ratings: 3,
       price: "9",
@@ -265,7 +265,7 @@ export const MenuItems = [
       id: 25,
       itemId: "snack01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fsnack1.png?alt=media&token=d670617e-4bfc-4693-aa8c-211db9f9d706",
+        "	https://globus-online.kg/upload/iblock/f11/f11079ac07ff539df9ebf04ba22bb9d8.png",
       name: "Snack",
       ratings: 4,
       price: "9",
@@ -274,7 +274,7 @@ export const MenuItems = [
       id: 26,
       itemId: "snack01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fsnack2.png?alt=media&token=55d7fc65-869b-4d8b-83b3-be0158474413",
+        "https://globus-online.kg/upload/iblock/d6f/d6fc19f06c753b345630103264ff25ed.png",
       name: "Snack",
       ratings: 4,
       price: "9",
@@ -283,7 +283,7 @@ export const MenuItems = [
       id: 27,
       itemId: "snack01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fsnack3.png?alt=media&token=76b488a6-be44-4a3e-a29e-c34ac17f2e2c",
+        "https://globus-online.kg/upload/iblock/a1b/a1b710c0803ab401b406ee22dc1a4560.png",
       name: "Snack",
       ratings: 4,
       price: "9",
@@ -292,7 +292,7 @@ export const MenuItems = [
       id: 28,
       itemId: "snack01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fsnack4.png?alt=media&token=1efcd8c0-098b-44a5-8113-da225e7358ce",
+        "https://globus-online.kg/upload/iblock/ac8/ac80aa03c52f16f4854faecf6ee2b11e.png",
       name: "Snack",
       ratings: 4,
       price: "9",
@@ -301,7 +301,7 @@ export const MenuItems = [
       id: 29,
       itemId: "snack01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fsnack5.png?alt=media&token=80cece50-38cd-489f-a73f-edd740fba4ab",
+        "https://globus-online.kg/upload/iblock/935/935f7ab35c8e95ed3e22aeaed8bc2e78.png",
       name: "Snack",
       ratings: 4,
       price: "9",
@@ -310,7 +310,7 @@ export const MenuItems = [
       id: 30,
       itemId: "snack01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fsnack6.png?alt=media&token=a36cb2c5-72d1-4364-9817-3a8eb8c244b6",
+        "	https://globus-online.kg/upload/iblock/83e/83e74e79fb5bf05674527efd6570572e.png",
       name: "Snack",
       ratings: 4,
       price: "9",
@@ -319,7 +319,7 @@ export const MenuItems = [
       id: 31,
       itemId: "drink01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fdrink1.png?alt=media&token=e9cc5e4e-2194-4766-9d5a-5e01657927b7",
+        "https://static.insales-cdn.com/images/products/1/6825/85351081/9acea8edf9acac9.png",
       name: "Soft Drinks",
       ratings: 4,
       price: "9",
@@ -328,7 +328,7 @@ export const MenuItems = [
       id: 32,
       itemId: "drink01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fdrink2.png?alt=media&token=872c5ddd-23ae-4f1e-b1dd-18d375240ba6",
+        "https://main-cdn.sbermegamarket.ru/big2/hlr-system/185/401/543/651/619/10/100023688334b0.png",
       name: "Soft Drinks",
       ratings: 4,
       price: "7.5",
@@ -337,7 +337,7 @@ export const MenuItems = [
       id: 33,
       itemId: "drink01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fdrink3.png?alt=media&token=c0efdccf-149a-4063-9658-00ae6c7c69dc",
+        "https://napitkistore.ru/wp-content/uploads/2024/02/rockstar-original.webp",
       name: "Soft Drinks",
       ratings: 4,
       price: "7.5",
@@ -346,7 +346,7 @@ export const MenuItems = [
       id: 34,
       itemId: "drink01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fdrink4.png?alt=media&token=eaaa8826-7fc0-499f-9eaf-8369ff99c112",
+        "https://cc.kz/upload/iblock/2d5/k1gotm02fp7h3e6ytfbhki8x8pa6i4sj.jpg",
       name: "Soft Drinks",
       ratings: 4,
       price: "7.5",
@@ -355,7 +355,7 @@ export const MenuItems = [
       id: 35,
       itemId: "drink01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fdrink5.png?alt=media&token=eecf1eee-73f5-4705-a7ce-9ccc363f4f47",
+        "https://cc.kz/upload/iblock/0df/kizkr92706rujlowgni39u2d10hyjard.jpg",
       name: "Soft Drinks",
       ratings: 4,
       price: "7.5",
@@ -364,7 +364,7 @@ export const MenuItems = [
       id: 36,
       itemId: "drink01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fdrink6.png?alt=media&token=86c4ba2c-0db7-47f0-b8cf-fed24db6c1ae",
+        "https://cc.kz/upload/iblock/d4c/d4c627bf9da347c46a80de8cb59ddf65.jpg",
       name: "Soft Drinks",
       ratings: 4,
       price: "7.5",
@@ -374,7 +374,7 @@ export const MenuItems = [
       id: 41,
       itemId: "buger01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fburger1.png?alt=media&token=319dfbe9-462b-46ea-8f38-6ca7a20319e0",
+        "https://emeals-menubuilder.s3.amazonaws.com/v1/recipes/691028/pictures/large_bistro-burgers.jpg",
       name: "Burger Bistro",
       ratings: 5,
       price: "7.5",
@@ -383,7 +383,7 @@ export const MenuItems = [
       id: 42,
       itemId: "buger01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fburger2.png?alt=media&token=b256ed7a-fe35-4051-9bf5-24f39b79f2b2",
+        "https://www.bitesa.pk/wp-content/uploads/2020/11/smokin.png",
       name: "Smokin' Burger",
       ratings: 5,
       price: "12",
@@ -392,7 +392,7 @@ export const MenuItems = [
       id: 43,
       itemId: "buger01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fburger3.png?alt=media&token=0ebe8311-6378-411b-9b6e-d7a6d2a106a2",
+        "https://euphoriaburgeralrayan.com/wp-content/uploads/2023/07/Food-Menu-1.jpg",
       name: "Euphoria Burger",
       ratings: 5,
       price: "12",
@@ -401,7 +401,7 @@ export const MenuItems = [
       id: 44,
       itemId: "buger01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fburger4.png?alt=media&token=f219c72c-22b5-484a-9135-34bbb84e7faa",
+        "	https://media-cdn.tripadvisor.com/media/photo-s/28/59/b6/5f/saucy-sassy-spicy-burger.jpg",
       name: "Sassy Burger",
       ratings: 5,
       price: "12",
@@ -410,7 +410,7 @@ export const MenuItems = [
       id: 45,
       itemId: "buger01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fburger5.png?alt=media&token=e8963c79-af46-4f33-a28d-059f98f464e3",
+        "https://www.athenshotspots.gr/wp-content/uploads/2021/05/IMG_1421.jpg",
       name: "Jazz Burger",
       ratings: 5,
       price: "12",
@@ -419,7 +419,7 @@ export const MenuItems = [
       id: 46,
       itemId: "buger01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fburger6.png?alt=media&token=f2b8febd-f0f8-48d7-9e1a-72d26b7bb36b",
+        "https://whatmollymade.com/wp-content/uploads/2020/11/sourdough-hamburger-buns-scaled.jpg",
       name: "Healthy Buns",
       ratings: 5,
       price: "12",
@@ -428,7 +428,7 @@ export const MenuItems = [
       id: 47,
       itemId: "pizza01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fpizza1.png?alt=media&token=7ffbc681-5d86-4429-888b-9597f3e800e8",
+        "https://www.sainsburysmagazine.co.uk/uploads/media/720x770/09/7699-Margherita-pizza.jpg?v=1-0",
       name: "Margherita",
       ratings: 5,
       price: "12",
@@ -437,7 +437,7 @@ export const MenuItems = [
       id: 48,
       itemId: "pizza01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fpizza2.png?alt=media&token=e9b65d7f-bd12-4c33-b172-729f1dfcf461",
+        "https://www.dominos.co.in//files/items/Peppy_Paneer.jpg",
       name: "Peppy Paneer",
       ratings: 5,
       price: "12",
@@ -446,7 +446,7 @@ export const MenuItems = [
       id: 49,
       itemId: "pizza01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fpizza3.png?alt=media&token=4dea85ad-c36d-405a-adcd-a9dfd0c63a6a",
+        "https://diyjoy.com/wp-content/uploads/2022/07/Double-Cheese-Chicken-Pizza-Recipe-480x270.jpg",
       name: "Double Cheese",
       ratings: 5,
       price: "12",
@@ -455,7 +455,7 @@ export const MenuItems = [
       id: 50,
       itemId: "pizza01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fpizza4.png?alt=media&token=1e5259ff-3431-4c76-830e-80e9d7dcc01e",
+        "https://www.chefajaychopra.com/assets/img/recipe/1-1659609869Untitleddesign4png.png",
       name: "Farm House",
       ratings: 4,
       price: "12",
@@ -464,7 +464,7 @@ export const MenuItems = [
       id: 51,
       itemId: "pizza01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fpizza5.png?alt=media&token=42bafbe4-f993-4aeb-93ee-57ea04b7cf1b",
+        "https://www.dominos.co.in//files/items/Veg_Extravaganz.jpg",
       name: "Veg Extrava",
       ratings: 4,
       price: "12",
@@ -473,7 +473,7 @@ export const MenuItems = [
       id: 52,
       itemId: "pizza01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fpizza6.png?alt=media&token=72a1e335-68d0-4b1c-8bbd-f28c656ce3b5",
+        "https://us2guntur.com/images//10024img/deluxeveggie_B_260216.jpg",
       name: "Deluxe Veggie",
       ratings: 4,
       price: "12",
@@ -536,7 +536,7 @@ export const MenuItems = [
       id: 59,
       itemId: "taco01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Ftaco1.png?alt=media&token=b78c8e68-c1a6-4e43-8c43-6ef9f23aa59f",
+        "https://www.tacobueno.com/assets/food/tacos/Taco_Soft_Beef_990x725.jpg",
       name: "Taco",
       ratings: 3,
       price: "7.5",
@@ -545,7 +545,7 @@ export const MenuItems = [
       id: 60,
       itemId: "taco01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Ftaco2.png?alt=media&token=a6e8d72e-f288-48dc-9f26-8322774f5216",
+        "https://www.tacobueno.com/assets/food/tacos/Taco_Soft_Beef_990x725.jpg",
       name: "Taco",
       ratings: 3,
       price: "7.5",
@@ -554,7 +554,7 @@ export const MenuItems = [
       id: 61,
       itemId: "taco01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Ftaco3.png?alt=media&token=daa2cf5b-36b7-426a-9f2c-73ae70e62634",
+        "https://www.tacobueno.com/assets/food/tacos/Taco_Soft_Beef_990x725.jpg",
       name: "Taco",
       ratings: 3,
       price: "7.5",
@@ -563,7 +563,7 @@ export const MenuItems = [
       id: 62,
       itemId: "taco01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Ftaco4.png?alt=media&token=5d067124-870f-4ea8-afe1-5bd4f94ca20c",
+        "https://www.tacobueno.com/assets/food/tacos/Taco_Soft_Beef_990x725.jpg",
       name: "Taco",
       ratings: 3,
       price: "9",
@@ -572,7 +572,7 @@ export const MenuItems = [
       id: 63,
       itemId: "taco01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Ftaco5.png?alt=media&token=910f236f-2149-46cf-9b74-7d1ee0323c93",
+        "https://www.tacobueno.com/assets/food/tacos/Taco_Soft_Beef_990x725.jpg",
       name: "Taco",
       ratings: 3,
       price: "9",
@@ -581,7 +581,7 @@ export const MenuItems = [
       id: 64,
       itemId: "taco01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Ftaco6.png?alt=media&token=91214a30-cad0-434d-9339-3c658150ccab",
+        "https://www.tacobueno.com/assets/food/tacos/Taco_Soft_Beef_990x725.jpg",
       name: "Taco",
       ratings: 3,
       price: "9",
@@ -590,7 +590,7 @@ export const MenuItems = [
       id: 65,
       itemId: "snack01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fsnack1.png?alt=media&token=d670617e-4bfc-4693-aa8c-211db9f9d706",
+        "https://globus-online.kg/upload/iblock/551/551c11071e05da394fed39653bc28456.png",
       name: "Snack",
       ratings: 4,
       price: "9",
@@ -599,7 +599,7 @@ export const MenuItems = [
       id: 66,
       itemId: "snack01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fsnack2.png?alt=media&token=55d7fc65-869b-4d8b-83b3-be0158474413",
+        "https://globus-online.kg/upload/iblock/551/551c11071e05da394fed39653bc28456.png",
       name: "Snack",
       ratings: 4,
       price: "9",
@@ -608,7 +608,7 @@ export const MenuItems = [
       id: 67,
       itemId: "snack01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fsnack3.png?alt=media&token=76b488a6-be44-4a3e-a29e-c34ac17f2e2c",
+        "https://globus-online.kg/upload/iblock/551/551c11071e05da394fed39653bc28456.png",
       name: "Snack",
       ratings: 4,
       price: "9",
@@ -617,7 +617,7 @@ export const MenuItems = [
       id: 68,
       itemId: "snack01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fsnack4.png?alt=media&token=1efcd8c0-098b-44a5-8113-da225e7358ce",
+        "https://globus-online.kg/upload/iblock/551/551c11071e05da394fed39653bc28456.png",
       name: "Snack",
       ratings: 4,
       price: "9",
@@ -626,7 +626,7 @@ export const MenuItems = [
       id: 69,
       itemId: "snack01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fsnack5.png?alt=media&token=80cece50-38cd-489f-a73f-edd740fba4ab",
+        "https://globus-online.kg/upload/iblock/551/551c11071e05da394fed39653bc28456.png",
       name: "Snack",
       ratings: 4,
       price: "9",
@@ -635,7 +635,7 @@ export const MenuItems = [
       id: 70,
       itemId: "snack01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fsnack6.png?alt=media&token=a36cb2c5-72d1-4364-9817-3a8eb8c244b6",
+        "https://globus-online.kg/upload/iblock/551/551c11071e05da394fed39653bc28456.png",
       name: "Snack",
       ratings: 4,
       price: "9",
@@ -644,7 +644,7 @@ export const MenuItems = [
       id: 71,
       itemId: "drink01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fdrink1.png?alt=media&token=e9cc5e4e-2194-4766-9d5a-5e01657927b7",
+        "https://cc.kz/upload/iblock/fe3/o6mrp62ysz6rvq0tblelcns1dy506ty4.jpg",
       name: "Soft Drinks",
       ratings: 4,
       price: "9",
@@ -653,7 +653,7 @@ export const MenuItems = [
       id: 72,
       itemId: "drink01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fdrink2.png?alt=media&token=872c5ddd-23ae-4f1e-b1dd-18d375240ba6",
+        "https://cc.kz/upload/iblock/1ad/11etigkfl4p1kk8ke6rq0h4cnkswjprs.jpg",
       name: "Soft Drinks",
       ratings: 4,
       price: "7.5",
@@ -662,7 +662,7 @@ export const MenuItems = [
       id: 73,
       itemId: "drink01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fdrink3.png?alt=media&token=c0efdccf-149a-4063-9658-00ae6c7c69dc",
+        "https://cc.kz/upload/iblock/007/liweg0mdpnewijc4s3iu9rb4njnxtayt.jpg",
       name: "Soft Drinks",
       ratings: 4,
       price: "7.5",
@@ -671,7 +671,7 @@ export const MenuItems = [
       id: 74,
       itemId: "drink01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fdrink4.png?alt=media&token=eaaa8826-7fc0-499f-9eaf-8369ff99c112",
+        "https://cc.kz/upload/iblock/fdb/tg3n0cuu9alp6qn20xdl8w03pajwsvsh.jpg",
       name: "Soft Drinks",
       ratings: 4,
       price: "7.5",
@@ -680,7 +680,7 @@ export const MenuItems = [
       id: 75,
       itemId: "drink01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fdrink5.png?alt=media&token=eecf1eee-73f5-4705-a7ce-9ccc363f4f47",
+        "https://cc.kz/upload/iblock/014/014e024868e75df08020eeca03741f36.jpg",
       name: "Soft Drinks",
       ratings: 4,
       price: "7.5",
@@ -689,7 +689,7 @@ export const MenuItems = [
       id: 76,
       itemId: "drink01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fdrink6.png?alt=media&token=86c4ba2c-0db7-47f0-b8cf-fed24db6c1ae",
+        "	https://cc.kz/upload/iblock/202/20237a31fdb41bceb3f469e1c73c0978.jpg",
       name: "Soft Drinks",
       ratings: 4,
       price: "7.5",
