@@ -1,19 +1,10 @@
 import { useState } from "react";
 import { Items, MenuItems } from "./data";
 import { AppContext } from "./context";
-import {
-  AccountBalanceWalletRounded,
-  Chat,
-  Favorite,
-  HomeRounded,
-  Settings,
-  SummarizeRounded
-} from "@mui/icons-material";
 import Header from "./components/Header";
 import BannerName from "./components/BannerName";
 import DebitCard from "./components/DebitCard";
 import CartItem from "./components/CartItem";
-import MenuContainer from "./components/MenuContainer";
 import MenuCard from "./components/MenuCard";
 import SubMenuContainer from "./components/SubMenuContainer";
 import ItemCard from "./components/ItemCard";
@@ -64,17 +55,7 @@ export default function App() {
     <div className="App">
       <AppContext.Provider value={state}>
         <Header />
-        <div className="leftMenu">
-          <ul id="menu">
-            <MenuContainer link={"#"} icon={<HomeRounded />} isHome />
-            <MenuContainer link={"#"} icon={<Chat />} />
-            <MenuContainer link={"#"} icon={<AccountBalanceWalletRounded />} />
-            <MenuContainer link={"#"} icon={<Favorite />} />
-            <MenuContainer link={"#"} icon={<SummarizeRounded />} />
-            <MenuContainer link={"#"} icon={<Settings />} />
-            <div className="indicator"></div>
-          </ul>
-        </div>
+      
         <main>
           <div className="mainContainer">
             <div className="banner">

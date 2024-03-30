@@ -18,7 +18,7 @@ export const MenuItems = [
     itemId: "hotdog01",
     name: "Hotdog",
     imgSrc:
-      "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fhdog1.png?alt=media&token=658e67d8-9284-4ba4-93ad-778dad99ce9c",
+      "	https://img.freepik.com/free-photo/top-view-hot-do…chips-on-plate_23-2148679032.jpg?size=626&ext=jpg",
   },
   {
     id: 4,
@@ -49,7 +49,7 @@ export const MenuItems = [
       id: 1,
       itemId: "buger01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fburger1.png?alt=media&token=319dfbe9-462b-46ea-8f38-6ca7a20319e0",
+        "	https://static.wixstatic.com/media/25f6e3_e52f8920…/25f6e3_e52f892028ab45fba440985e97162563~mv2.webp",
       name: "Burger Bistro",
       ratings: 5,
       price: "7.5",
@@ -157,7 +157,7 @@ export const MenuItems = [
       id: 13,
       itemId: "hotdog01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fhdog1.png?alt=media&token=658e67d8-9284-4ba4-93ad-778dad99ce9c",
+        "https://ichef.bbci.co.uk/food/ic/food_16x9_608/recipes/smokey_dogs_41893_16x9.jpg",
       name: "Hot Dog",
       ratings: 4,
       price: "12",
@@ -166,7 +166,7 @@ export const MenuItems = [
       id: 14,
       itemId: "hotdog01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fhdog2.png?alt=media&token=20c79a23-546f-48ef-a0fb-d6801e22273c",
+        "https://www.quiktrip.com/app/uploads/2021/10/MicrosoftTeams-image-5.jpg",
       name: "Hot Dog",
       ratings: 4,
       price: "12",
@@ -175,7 +175,7 @@ export const MenuItems = [
       id: 15,
       itemId: "hotdog01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fhdog3.png?alt=media&token=f0f0024f-0c1f-48ff-b589-b7f484ab5c96",
+        "https://airfryereats.com/wp-content/uploads/2020/01/Air-Fryer-Hot-Dogs-1.jpg",
       name: "Hot Dog",
       ratings: 4,
       price: "12",
@@ -184,7 +184,7 @@ export const MenuItems = [
       id: 16,
       itemId: "hotdog01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fhdog4.png?alt=media&token=0c0e6531-db79-42b8-94f9-78a6d618f20c",
+        "	https://weekendatthecottage.com/wp-content/uploads/2016/09/ConeyIslandHotDogs6.jpg",
       name: "Hot Dog",
       ratings: 4,
       price: "12",
@@ -193,7 +193,7 @@ export const MenuItems = [
       id: 17,
       itemId: "hotdog01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fhdog5.png?alt=media&token=95f8330f-dc35-4029-b125-d9cf01e3e345",
+        "https://ist.say7.info/img0014/92/1492_0140joo_4368_1024.jpg",
       name: "Hot Dog",
       ratings: 4,
       price: "12",
@@ -202,7 +202,7 @@ export const MenuItems = [
       id: 18,
       itemId: "hotdog01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fhdog6.png?alt=media&token=d371d7dd-c23e-465a-87ec-605c7ed3bc02",
+        "https://s1.webspoon.ru/receipts/2013/5/7926/orig_7926_0_xxl.jpg",
       name: "Hot Dog",
       ratings: 3,
       price: "12",
@@ -482,7 +482,7 @@ export const MenuItems = [
       id: 53,
       itemId: "hotdog01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fhdog1.png?alt=media&token=658e67d8-9284-4ba4-93ad-778dad99ce9c",
+        "https://e2.edimdoma.ru/data/posts/0001/6493/16493-ed4_wide.jpg?1631186249",
       name: "Hot Dog",
       ratings: 4,
       price: "12",
@@ -491,7 +491,7 @@ export const MenuItems = [
       id: 54,
       itemId: "hotdog01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fhdog2.png?alt=media&token=20c79a23-546f-48ef-a0fb-d6801e22273c",
+        "https://img.freepik.com/free-photo/top-view-hot-do…chips-on-plate_23-2148679032.jpg?size=626&ext=jpg",
       name: "Hot Dog",
       ratings: 4,
       price: "12",
@@ -500,7 +500,7 @@ export const MenuItems = [
       id: 55,
       itemId: "hotdog01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fhdog3.png?alt=media&token=f0f0024f-0c1f-48ff-b589-b7f484ab5c96",
+        "https://img.freepik.com/free-photo/top-view-hot-do…chips-on-plate_23-2148679032.jpg?size=626&ext=jpg",
       name: "Hot Dog",
       ratings: 4,
       price: "12",
@@ -509,7 +509,7 @@ export const MenuItems = [
       id: 56,
       itemId: "hotdog01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fhdog4.png?alt=media&token=0c0e6531-db79-42b8-94f9-78a6d618f20c",
+        "https://potatorolls.com/wp-content/uploads/The-German-Hot-Dog6-960x640.jpg",
       name: "Hot Dog",
       ratings: 4,
       price: "12",
@@ -518,7 +518,7 @@ export const MenuItems = [
       id: 57,
       itemId: "hotdog01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fhdog5.png?alt=media&token=95f8330f-dc35-4029-b125-d9cf01e3e345",
+        "	https://weekendatthecottage.com/wp-content/uploads/2016/09/ConeyIslandHotDogs6.jpg",
       name: "Hot Dog",
       ratings: 4,
       price: "12",
@@ -527,7 +527,7 @@ export const MenuItems = [
       id: 58,
       itemId: "hotdog01",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fhdog6.png?alt=media&token=d371d7dd-c23e-465a-87ec-605c7ed3bc02",
+        "	https://culinaryginger.com/wp-content/uploads/Mexican-Style-Hot-Dogs-picture-6--1024x1536.jpg",
       name: "Hot Dog",
       ratings: 3,
       price: "12",

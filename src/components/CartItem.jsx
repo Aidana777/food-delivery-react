@@ -1,3 +1,4 @@
+
 import { AddRounded, RemoveRounded } from "@mui/icons-material";
 import { useAppState } from "../context";
 
@@ -5,7 +6,7 @@ function CartItem({ item }) {
   const { id, name, imgSrc, quantity, price } = item;
   const { addToCart, removeFromCart } = useAppState();
 
-  const totalPrice =  quantity * price;
+  const totalPrice = quantity * price;
 
   return (
     <div className="cartItem" id={id}>
@@ -29,13 +30,10 @@ function CartItem({ item }) {
         </div>
       </div>
       <p className="itemPrice">
-        <span className="dolorSign">$</span>{" "}
+        <span className="dollarSign">$</span>{" "}
         <span className="itemPriceValue">{totalPrice}</span>
       </p>
     </div>
   );
 }
-
-export default CartItem;
-
-
+export default CartItem
